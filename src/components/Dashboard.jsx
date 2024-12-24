@@ -1,8 +1,9 @@
 import React from 'react';
-const Dashboard = () => {
+const Dashboard = ({index , tabs }) => {
+  
   return (
         <div className = "flex py-3  justify-start text-xl font-semibold text-indigo-900">
-           Dashboard
+           {` ${tabs[index]}`}
         </div>
   );
 };
