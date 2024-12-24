@@ -1,5 +1,5 @@
 import React from 'react';
-import PinDotIcon from './pinDotIcon';
+import PinDotIcon from './PinDotIcon';
 
 const Notify = ({text1 , text2 , pinned , update}) => {
   return (
