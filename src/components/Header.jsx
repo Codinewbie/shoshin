@@ -7,13 +7,13 @@ import Dropdown from './Dropdown';
 const Header = () => {
 
   return (  
-    <div className="border-b flex justify-between gap-3 items-center py-2">
+    <div className="border-b flex justify-between gap-3 space-5 items-center py-2">
       <form>
         <div className="relative">
           <input
             type="search"
             id="default-search"
-            className="block w-full p-2 ml-8 sm:ml-0 ps-10 text-sm text-gray-900 w-48 border rounded-lg bg-gray-50"
+            className="block w-full p-2 ml-8 sm:ml-0 ps-4 text-[10px] text-gray-900 w-24 sm:w-36 border rounded-lg bg-gray-50"
             placeholder="Search"
             required
           />
