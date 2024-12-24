@@ -1,5 +1,6 @@
 import React from 'react';
-
+import graph1 from '/src/images/graph1.png';
+import graph2 from '/src/images/graph1.png';
 const GraphStats = ({text1 , text2 , text3, text4 , text5, graphNo}) => {
   return (
         <div className = "flex flex-row justify-between p-4 border rounded-lg">
@@ -13,7 +14,7 @@ const GraphStats = ({text1 , text2 , text3, text4 , text5, graphNo}) => {
             </div>
             <div className = "flex flex-col gap-4">
                 <img 
-                    src = {`/src/images/graph${graphNo}.png`}
+                    src = {`${graphNo === 1 ? graph1 : graph2}`}
                     alt = {`graph${graphNo}`}
                     
                 />
