@@ -13,11 +13,11 @@ const Header = () => {
           <input
             type="search"
             id="default-search"
-            className="block w-full p-2 ml-8 sm:ml-0 ps-1 text-[10px] text-gray-900 w-16 xs:w-24 sm:w-36 border rounded-lg bg-gray-50"
+            className="block  p-2 px-3 ml-8 sm:ml-0 ps-2 text-[10px] text-gray-900 w-24 xs:w-24 sm:w-36 border rounded-lg bg-gray-50"
             placeholder="Search"
             required
           />
-          <div className="absolute inset-y-0 right-0 end-4 flex items-center ps-3 pointer-events-none">
+          <div className="absolute inset-y-0 right-0 end-2 flex items-center ps-1 pointer-events-none">
             <box-icon name="search" color="#bebcbc" size='sm'></box-icon>
           </div>
         </div>
