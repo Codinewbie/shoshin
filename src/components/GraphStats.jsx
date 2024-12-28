@@ -1,6 +1,6 @@
 import React from 'react';
 import graph1 from '/src/images/graph1.png';
-import graph2 from '/src/images/graph1.png';
+import graph2 from '/src/images/graph2.png';
 const GraphStats = ({text1 , text2 , text3, text4 , text5, graphNo}) => {
   return (
         <div className = "flex flex-row justify-between p-4 border rounded-lg">

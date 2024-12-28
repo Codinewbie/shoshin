@@ -21,7 +21,7 @@ const Announcement = ({update}) => {
             <Notify text1 = {`${update === true ? "Short meeting with product designer from IT Department" : "IT department need two more talents for UX/UI Designer position."}`} text2={`${update===true ? "Today - 9:15 AM" :"Yesterday, 09:15 AM"}`} pinned={false} update={update}/>
         </div>
         <button className = "flex justify-center  w-full items-center">
-            <div className = "text-red-500 text-xs  text-center font-semibold border-t p-2">
+            <div className = "text-red-500 text-xs  w-full text-center font-semibold border-t p-2">
                 {`${update == true ? "Create a New Schedule" : "See All Announcement"}`}
             </div>
         </button>
